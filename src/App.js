@@ -1,21 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import generalBtn from './comp/btn';
 
-function ShowName(){
-  let user = {name: "alma"}
-  return(
-  <h1>
-  {user.name}
-</h1>)
-}
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+
 
 function App() {
   return (
@@ -33,8 +21,9 @@ function App() {
         >
           Learn React
         </a>
-        <MyButton />
-        <ShowName />
+        <div>
+        {generalBtn("Gomb szövege", console.log("alma"))}
+        </div>
       </header>
     </div>
   );
