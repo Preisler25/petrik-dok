@@ -19,4 +19,11 @@
   border-radius: 0.5vh;
   font-size: 2vh;
 }
+
+.txtBoxcont {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 5px;
+  background-color: #4ccfb7;
+}
 /*# sourceMappingURL=App.css.map */
