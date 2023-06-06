@@ -26,4 +26,13 @@
   border-radius: 5px;
   background-color: #4ccfb7;
 }
+
+header {
+  position: fixed;
+  height: 10vh;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #4ccfb7;
+}
 /*# sourceMappingURL=App.css.map */
